@@ -1,0 +1,326 @@
+/*
+  ========================================
+  Eric Meyer's Reset
+  ========================================
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.clearfix-group:before,
+.clearfix-group:after {
+	content: "";
+	display: table;
+}
+
+.clearfix-group:after {
+	clear: both;
+}
+
+.clearfix-group {
+	clear: both;
+	*zoom: 1;
+}
+
+/*
+  ========================================
+  Type selectors
+  ========================================
+*/
+body {
+	margin: 0 8px;
+}
+
+header {
+	flex-shrink: 0;
+	padding: 8px;
+	background-color: #822e80;
+	line-height: 20px;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+p {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+a {
+	text-decoration: none;
+	margin: 0 2px;
+	font-family: "Playfair Display", sans-serif;
+}
+
+small {
+	font-size: smaller;
+}
+
+footer {
+	padding: 20px;
+	text-align: center;
+	background: #90ee90;
+}
+
+/*
+  ========================================
+  Fonts Awesome
+  ========================================
+*/
+.fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3b5998;
+	color: white;
+}
+
+.fa-linkedin {
+	background: #007bb5;
+	color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.fa-github {
+	background: black;
+	color: white;
+}
+
+/*
+  ========================================
+  Flex
+  ========================================
+*/
+.body-flex {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.header-flex {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	flex-shrink: 0;
+}
+
+.main-flex {
+	flex: 1 0 auto;
+	overflow: auto;
+	background: pink;
+}
+
+.footer-flex {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	flex-shrink: 0;
+}
+
+/*
+  ========================================
+  Others
+  ========================================
+*/
+.header-nav {
+	text-align: center;
+}
+
+.header-nav a {
+	color: white;
+}
+
+.header-nav a:hover {
+	color: lawngreen;
+}
+
+.section-hindi {
+	font-family: "Hind", sans-serif;
+}
+
+#section-2 {
+	background-color: #d3d3d3;
+	padding: 4px 0;
+}
+
+#section-4 {
+	background-color: #e6e6fa;
+	padding: 4px 0;
+}
+
+.footer-primary {
+	margin-top: 16px;
+}
+
+.profile {
+	text-align: center;
+}
+
+.profile .name {
+	color: lightslategrey;
+	font-size: 24px;
+}
+
+.profile img {
+	margin: 8px 0;
+	height: 180px;
+	border: 1px solid gray;
+	border-radius: 50%;
+	text-align: center;
+}

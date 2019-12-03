@@ -1,0 +1,236 @@
+/*
+  ========================================
+  Eric Meyer's Reset
+  ========================================
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.clearfix-group:before,
+.clearfix-group:after {
+	content: "";
+	display: table;
+}
+
+.clearfix-group:after {
+	clear: both;
+}
+
+.clearfix-group {
+	clear: both;
+	*zoom: 1;
+}
+
+/*
+  ========================================
+  Others
+  ========================================
+*/
+body {
+	margin: 8px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	margin-left: 0;
+	margin-right: 0;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+	margin-top: 0.83em;
+	margin-bottom: 0.83em;
+}
+
+h3 {
+	font-size: 1.17em;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+h4 {
+	font-size: 1em;
+	margin-top: 1.33em;
+	margin-bottom: 1.33em;
+}
+
+p {
+	display: block;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+img {
+	height: 256px;
+}
+
+#home-body {
+	background-color: tomato;
+}
+
+#contact-body {
+	background-color: yellowgreen;
+}
+
+#services-body {
+	background-color: steelblue;
+}
+
+header {
+	padding: 8px;
+	background-color: gray;
+	line-height: 20px;
+}
+
+.header-title {
+	float: left;
+}
+
+.header-nav {
+	float: right;
+}
+
+.footer-nav {
+	text-align: center;
+}
