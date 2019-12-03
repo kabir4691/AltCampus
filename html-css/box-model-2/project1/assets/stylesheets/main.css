@@ -1,0 +1,311 @@
+/*
+  ========================================
+  Eric Meyer's Reset
+  ========================================
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.clearfix-group:before,
+.clearfix-group:after {
+	content: "";
+	display: table;
+}
+
+.clearfix-group:after {
+	clear: both;
+}
+
+.clearfix-group {
+	clear: both;
+	*zoom: 1;
+}
+
+/*
+  ========================================
+  Type selectors
+  ========================================
+*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 36px 0;
+}
+
+h2 {
+    font-size: 1.7em;
+    margin: 20px 0;
+}
+
+section {
+    text-align: center;
+}
+
+hr {
+    width: 200px;
+    border-top: 1px dotted gray;
+    margin: 32px auto;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+ul {
+  list-style: none;
+  margin: 24px auto;
+}
+
+ul li {
+    display: inline;
+    /* vertical-align: middle; */
+}
+
+/* ul li::before {
+  content: "\2022";  
+  display: inline-block; 
+  width: 1em;
+}
+
+ul li:nth-child(1)::before {
+    color: #dafad4;
+}
+
+ul li:nth-child(2)::before {
+    color: #add8e6;
+}
+
+ul li:nth-child(3)::before {
+    color: black;
+}
+
+ul li:nth-child(4)::before {
+    color: #ed7f80;
+} */
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    line-height: 1.8;
+}
+/*
+  ========================================
+  Others
+  ========================================
+*/
+#box-1 {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background: #ed7f80;
+}
+
+#box-2 {
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    margin: 20px;
+    background: #add8e6;
+    padding: 20px;
+    border: 4px solid black;
+}
+
+#box-3 {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background: #dafad4;
+}
+
+.bullet {
+    display: inline-block;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    margin-left: 16px;
+    margin-right: 4px;
+    vertical-align: middle;
+}
+
+#bullet-1 {
+    background-color: #dafad4;
+}
+
+#bullet-2 {
+    background-color: #add8e6;
+}
+
+#bullet-3 {
+    background-color: black;
+}
+
+#bullet-4 {
+    background-color: #ed7f80;
+}
+
+.container-boxes {
+    text-align: left;
+    display: inline-block;
+    width: 600px;
+    box-sizing: content-box;
+}
+
+.child-box {
+    display: inline-block;
+    width: 180px;
+    height: 100px;
+    margin: 10px;
+    background: #cccccc;
+}
+
+.border-1-px {
+    border: 1px solid black;
+}
+
+.box-sizing-content {
+    box-sizing: content-box;
+}
+
+
+
