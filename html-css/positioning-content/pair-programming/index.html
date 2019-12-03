@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="author" content="Kabir Nazir">
+        <link rel="stylesheet" href="assets/stylesheets/main.css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        <title>Pair programming</title>
+    </head>
+
+    <body>
+        <main>
+            <section>
+                <h1>Side-By-Side Positioning Demo</h1>
+                <article>
+                    <div class="col-45-percent box box-red pos-inline-block">
+                        <p>These two divs are positioned next to one another using <span class="snippet-css">display:
+                                inline-block</span></p>
+                    </div>
+                    <div class="col-45-percent box box-red pos-inline-block">
+                        <p>Notice the space between them. It occurs because of my carriage return in the HTML which I
+                            have used to keep the code organized. I have used a reset to ensure no elements should have
+                            any default margins or padding. (I did add a bottom margin to make it easier to read.) This
+                            space is actually a space character rendered just as it would be between two inline elements
+                        </p>
+                    </div>
+                </article>
+                <article class="clearfix">
+                    <div class="col-45-percent box box-green float-left">
+                        <p>These two are positioned using <span class="snippet-css">float:left</span></p>
+                    </div>
+                    <div class="col-45-percent box box-green float-left">
+                        <p>You can see that, even though the elements are spaced in the code, the space is not actually
+                            rendered on the page. This
+                            may not be a huge deal in these first examples, but...</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="col-50-percent box box-red pos-inline-block">
+                        <p>What if I want my side-by-side elements to take up the full width of the parent element? I
+                            can set the width of each to 50%, right?</p>
+                    </div>
+                    <div class="col-50-percent box box-red pos-inline-block">
+                        <p>Wrong! Because, together, the two inline block elements will add up to 100% of the available
+                            width, but that doesn't account for the space between.
+                        </p>
+                    </div>
+                </article>
+                <article class="clearfix">
+                    <div class="col-50-percent box box-green float-left">
+                        <p>If I do the same thing with floated elements..</p>
+                    </div>
+                    <div class="col-50-percent box box-green float-left">
+                        <p>The two elements are side by side just as I intended and fill the entire width of the parent (which, in this case, is the same as the width of the viewport.
+                        </p>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </body>
+
+</html>

@@ -1,0 +1,354 @@
+/*
+  ========================================
+  Eric Meyer's Reset
+  ========================================
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Clearfix
+  ========================================
+*/
+.clearfix:before,
+.clearfix:after {
+	content: "";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	clear: both;
+	*zoom: 1;
+}
+
+/*
+  ========================================
+  Type selectors
+  ========================================
+*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Raleway", sans-serif;
+}
+
+p {
+	margin-top: 12p;
+	margin-bottom: 12px;
+	font-size: 15px;
+	line-height: 1.5em;
+}
+/*
+  ========================================
+  General
+  ========================================
+*/
+.blue-bg {
+	background: #5385c1;
+}
+.blue-text {
+	color: #5385c1;
+}
+
+.white-bg {
+	background: white;
+}
+.white-text {
+	color: white;
+}
+
+.black-text {
+	color: #b1b1b1;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+.part-padding {
+	padding: 92px 0;
+}
+
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}
+
+.col-1-2 {
+	width: 50%;
+	padding: 15px;
+}
+.col-1-3 {
+	width: 33.33%;
+	padding: 15px;
+}
+.col-1-4 {
+	width: 25%;
+	padding: 15px;
+}
+
+/*
+  ========================================
+  Others
+  ========================================
+*/
+#logo-header {
+	color: white;
+	font-size: 16px;
+	font-weight: 600;
+}
+
+#nav-header > a {
+	text-decoration: none;
+	margin: 0 8px;
+	color: white;
+	font-size: 12px;
+	font-weight: 300;
+}
+
+#heading-header{
+	font-size: 44px;
+	color: white;
+	text-align: center;
+	margin-top: 80px;
+	font-weight: 200;
+}
+
+#subheading-header{
+	color: #b1c7e2;
+	text-align: center;
+	margin-top: 24px;
+	font-weight: 200;
+	font-size: 14px;
+}
+#padding-header {
+	padding: 60px 15px 160px;
+}
+
+.blog-image {
+	margin: 20px 0;
+	width: 100%;
+	height: 175px;
+	object-fit: cover;
+}
+.blog-heading {
+	color: #5385c1;
+	font-size: 16px;
+	margin: 12px 0;
+	line-height: 1.5em;
+}
+.blog-subheading {
+	color: #b1b1b1;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+.button-more {
+	display: inline-block;
+	color: white;
+	padding: 12px 20px;
+	background: #5385c1;
+	margin: 12px 0;
+	font-weight: 600;
+	font-size: 12px;
+}
+
+.section-heading {
+	text-align: center;
+	font-weight: 300;
+	font-size: 32px;
+}
+.section-subheading {
+	margin-top: 24px;
+	text-align: center;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.employee {
+	border: 0.5px solid #7ea3d1;
+	padding: 40px 8px;
+	text-align: center;
+}
+
+.employee img {
+	height: 160px;
+	width: 160px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+.employee h3 {
+	margin-top: 12px;
+	color: white;
+	font-weight: 400;
+	font-size: 18px;
+	
+}
+.employee p {
+	margin-top: 4px;
+	color: white;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+#footer-container {
+	padding: 0 15px;
+}
+
+.hr-rule {
+	border-top: 1px solid #dbdbdb;
+}
+
+#footer-padding {
+	padding: 40px 0;
+}
+
+#footer-copyright {
+	font-size: 12px;
+	font-weight: 300;
+	color: #c4c4c4;
+}
+
+#footer-nav a {
+	margin-left: 12px;
+}
+
+
