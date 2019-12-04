@@ -1,0 +1,439 @@
+/*
+  ========================================
+  Eric Meyer's Reset
+  ========================================
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: "";
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+  ========================================
+  Type selectors
+  ========================================
+*/
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+p {
+	line-height: 1.5;
+}
+
+header {
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	padding: 18px 0;
+}
+
+img {
+	object-fit: cover;
+}
+
+a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+}
+
+section {
+	text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 44px;
+	margin: 16px 0;
+}
+
+h2 {
+	font-size: 32px;
+	margin: 16px 0;
+}
+
+h3 {
+	font-size: 24px;
+	margin: 16px 0;
+}
+
+p {
+	margin: 14px 0;
+}
+
+button {
+	padding: 12px 44px;
+	border-radius: 4px;
+	font-weight: bold;
+	color: black;
+	background: white;
+	border: 2px solid black;
+	font-size: 14px;
+	margin: 16px 0;
+}
+
+footer {
+	background: #19242e;
+	padding: 28px 0;
+	text-align: center;
+	color: #dff5e1;
+}
+
+footer small {
+    font-weight: 500;
+}
+/*
+  ========================================
+  General
+  ========================================
+*/
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.back-gradient {
+	background: linear-gradient(to bottom, #2f585d, #4ea280);
+	color: #dff5e1;
+}
+.back-white {
+	background: white;
+	color: #2c3e50;
+}
+.back-grey {
+	background: #bdc7d2;
+}
+.back-dark-green {
+	background: #2c3e50;
+	color: #dff5e1;
+}
+
+.section-padding {
+	padding: 24px 0 32px;
+}
+
+.flex-multiple {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-table-row {
+	display: flex;
+	justify-content: flex-start;
+	align-items: baseline;
+	padding: 16px 0;
+	color: black;
+}
+.flex-table-row > * {
+	padding: 0 16px;
+	text-align: initial;
+}
+.flex-table-col-1 {
+	width: 28%;
+}
+.flex-table-col-2 {
+	width: 22%;
+}
+.flex-table-col-3 {
+	width: 22%;
+}
+.flex-table-col-4 {
+	width: 28%;
+}
+/*
+  ========================================
+  Others
+  ========================================
+*/
+#nav-header {
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#nav-header-logo {
+	height: 24px;
+}
+
+#nav-header-links > * {
+	margin: 0 8px;
+}
+
+#section-hero {
+	padding-top: 200px;
+}
+
+#section-hero h1 {
+	line-height: 1.5;
+}
+
+#section-hero p {
+	font-size: 24px;
+	color: #dff5e1;
+    height: 72px;
+    font-weight: 500;
+}
+
+#article-portfolio img {
+	height: 100px;
+	margin: 16px;
+}
+
+#article-about p {
+	text-align: start;
+	font-size: 18px;
+	margin: 16px;
+    max-width: 300px;
+    font-weight: 500;
+}
+
+#article-contact {
+	max-width: 380px;
+	text-align: initial;
+}
+#article-contact h2 {
+	text-align: center;
+}
+#article-contact form * {
+	width: 100%;
+    padding: 36px 0 20px;
+	border: none;
+    border-bottom: 1px solid #607d9d;
+    font-size: 18px;
+}
+#article-contact form *:focus {
+	outline: none;
+}
+#article-contact form *::placeholder {
+	color: #607d9d;
+}
+#button-send {
+	background: #326d5e;
+	border-color: #326d5e;
+	color: white;
+	margin-top: 64px;
+}
+
+#article-map {
+	padding: 0 28px;
+}
+
+#article-map iframe {
+	width: 100%;
+}
+#flex-table-header {
+	background: #1e2639;
+    color: #215875;
+    font-weight: 700;
+    font-size: 18px;
+}
+#flex-table-rows .flex-table-row:nth-child(odd) {
+	background: #323c50;
+}
+#flex-table-rows .flex-table-row:nth-child(even) {
+	background: #2b3346;
+}
+#flex-table-rows .flex-table-col-1:first-child {
+	color: #eb6379;
+}
+
+#article-info p {
+	font-weight: 500;
+	font-size: 18px;
+}
+#flex-info {
+    align-items: baseline;
+    text-align: center;
+}
+#flex-info > div {
+	width: 33.33%;
+}
+#flex-info nav {
+    margin: 32px auto;
+}
+#flex-info nav > *{
+    color: white;
+    margin: 0 4px;
+    height: 32px;
+    line-height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+#flex-info .span-altcampus {
+    color: #5bbc9c;
+}
+
+/*
+  ========================================
+  Desktop
+  ========================================
+*/
+@media screen and (min-width: 1024px) {
+	header {
+		position: absolute;
+		top: 0px;
+		width: 100%;
+		background: #2c3e50;
+		padding: 18px 0;
+	}
+
+	.container {
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+
+	.flex-multiple {
+		flex-direction: row;
+	}
+
+	#article-portfolio img {
+		height: 200px;
+	}
+}
