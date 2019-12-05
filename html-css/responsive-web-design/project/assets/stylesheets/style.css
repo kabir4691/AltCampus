@@ -262,30 +262,6 @@ footer small {
 	align-items: baseline;
 	align-content: center;
 }
-
-.flex-table-row {
-	display: flex;
-	justify-content: flex-start;
-	align-items: baseline;
-	padding: 16px 0;
-	color: black;
-}
-.flex-table-row > * {
-	padding: 0 16px;
-	text-align: initial;
-}
-.flex-table-col-1 {
-	width: 28%;
-}
-.flex-table-col-2 {
-	width: 22%;
-}
-.flex-table-col-3 {
-	width: 22%;
-}
-.flex-table-col-4 {
-	width: 28%;
-}
 /*
   ========================================
   Others
@@ -369,19 +345,34 @@ footer small {
 #article-map iframe {
 	width: 100%;
 }
-#flex-table-header {
+
+#article-table table {
+	width: 100%;
+	text-align: start;
+}
+
+#article-table th {
 	background: #1e2639;
 	color: #215875;
 	font-weight: 700;
 	font-size: 18px;
+	padding: 16px;
+	text-align: start;
 }
-#flex-table-rows .flex-table-row:nth-child(odd) {
-	background: #323c50;
+
+#article-table td {
+	color: black;
+	font-size: 18px;
+	padding: 16px;
 }
-#flex-table-rows .flex-table-row:nth-child(even) {
+
+#article-table tr:nth-child(odd) td {
 	background: #2b3346;
 }
-#flex-table-rows .flex-table-col-1:first-child {
+#article-table tr:nth-child(even) td {
+	background: #323c50;
+}
+#article-table tr td:first-child {
 	color: #eb6379;
 }
 
