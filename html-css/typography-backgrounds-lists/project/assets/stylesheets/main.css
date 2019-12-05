@@ -338,7 +338,7 @@ footer {
 }
 
 .icon {
-	line-height: 64px;
+	line-height: 64px !important;
 	height: 64px;
 	width: 64px;
 	border-radius: 50%;
